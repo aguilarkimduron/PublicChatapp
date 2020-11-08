@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VanillaJs - Chatapp</title>
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="sponsor"><div><img  src="https://img.icons8.com/color/48/000000/material-ui.png"/></div>
+            <div>Public Chatapp</div></div>
+        </header>
+        <div class="messages-container">
+            <div class="loader-background"><div class="loader"></div></div>
+            <ul>
+            </ul>   
+        </div>
+        <div class="messages-compose-container">
+            <span class="message-compose" role="textbox" contenteditable></span>
+            <div class="message-send"><img  class="message-send-logo" src="https://img.icons8.com/fluent/48/000000/filled-sent.png"/></div>
+        </div>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-database.js"></script>
+<script src="resources/js/app.js"></script>
+</body>
+</html>
